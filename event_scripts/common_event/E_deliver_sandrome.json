@@ -86,6 +86,7 @@
 	],
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
+	"step1_ask_B_lavalin"				: "step1_ask_unknown",
 	"step1_ask_B_astrayo"				: "step1_ask_unknown",
 	"step1_ask_B_dot"					: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
@@ -107,15 +108,16 @@
 			"dialog"			: "我会有许多惩罚吗？",
 		},
 	],
-	"step1_ask_B_split_veyeral"		: "step1_ask_veyeral",
+	"step1_ask_B_split_veyeral"			: "step1_ask_veyeral",
 	"step1_ask_B_burning_veyeral"		: "step1_ask_veyeral",
-	"step1_ask_B_voltage_veyeral"	: "step1_ask_veyeral",
-	"step1_ask_B_venom_veyeral"		: "step1_ask_veyeral",
-	"step1_ask_B_frozen_veyeral"	: "step1_ask_veyeral",
-	"step1_ask_B_vibrant_veyeral"	: "step1_ask_veyeral",
-	"step1_ask_B_veyeral_rain"		: "step1_ask_veyeral",
+	"step1_ask_B_voltage_veyeral"		: "step1_ask_veyeral",
+	"step1_ask_B_venom_veyeral"			: "step1_ask_veyeral",
+	"step1_ask_B_frozen_veyeral"		: "step1_ask_veyeral",
+	"step1_ask_B_vibrant_veyeral"		: "step1_ask_veyeral",
+	"step1_ask_B_veyeral_rain"			: "step1_ask_veyeral",
 	"step1_ask_B_storm_veyeral"			: "step1_ask_veyeral",
-	"step1_ask_B_molten_veyeral"	: "step1_ask_veyeral",
+	"step1_ask_B_molten_veyeral"		: "step1_ask_veyeral",
+	"step1_ask_B_blizz_veyeral"			: "step1_ask_veyeral",
 	"step1_ask_veyeral" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
@@ -209,7 +211,7 @@
 	],
 	
 	
-
+	
 	"step1_leave_generic" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
@@ -249,6 +251,7 @@
 	],
 	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
+	"step1_leave_B_lavalin"				: "step1_leave_unknown",
 	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
 	"step1_leave_B_ventra"				: "step1_leave_unknown",
@@ -262,6 +265,7 @@
 	"step1_leave_B_vibrant_veyeral"		: "step1_leave_unknown",
 	"step1_leave_B_veyeral_rain"		: "step1_leave_unknown",
 	"step1_leave_B_molten_veyeral"		: "step1_leave_unknown",
+	"step1_leave_B_blizz_veyeral"		: "step1_leave_unknown",
 	"step1_leave_unknown" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
@@ -298,7 +302,6 @@
 	],
 	
 	
-
 	"step1_ask_B_scrambla_defect" : [
 		{
 			"character"			: ["VOICE_scrambla", "CHAR_scrambla_right", "MOOD_sad"],
@@ -402,7 +405,27 @@
 			"dialog"			: "来吧，我们来锻炼汝送达时的言语。",
 		},
 	],
-
+	
+	"step1_leave_B_shanx_devil" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "我看到你的头上许多心心爆裂！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|你被攻击了吗？",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "亲爱的，你从没告诉过我你有那种特殊的视觉。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "没人能在你那儿藏下秘密。",
+		},
+	],
+	
 	"step1_leave_B_dendrohai_twins" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
@@ -425,7 +448,34 @@
 			"dialog"			: "|shake|前进！全速！",
 		},
 	],
-
+	
+	"step1_leave_B_lavalin_twins" : [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_normal"],
+			"dialog"			: "你必须收下我的许多谢谢！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "我差点忘了。|!||L|在她妹妹附近小心点。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "我觉得她可能会试着骑到你身上。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "交通是我的顶级技能！",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "哦-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+			"dialog"			: "那，玩得开心？",
+		},
+	],
+	
 	"step1_ask_B_heliola" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
@@ -521,7 +571,7 @@
 			"dialog"			: "|shake|快停下，|norm|   我已经足够慌了。",
 		},
 	],
-
+	
 	"step1_ask_B_hadesoh" : [
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
@@ -566,6 +616,71 @@
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_happy"],
 			"dialog"			: "我想让你把这些祝福中的一个带给她。",
+		},
+	],
+	
+	"step1_ask_B_chionotoh" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "谢谢你和我一起散步",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "你确定不想要交通？",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "关键在于我要亲自做这件事。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_aggressive"],
+			"dialog"			: "就像你也有自己要做的事情一样。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_sad"],
+			"dialog"			: "这个任务的挑战太高了。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "我来帮你一下吧。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "哦，呃-你能看到这些吗？",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "我视觉过这些祝福许多次之前。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "你也一直都能看到它们？",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "祝福？  那是    某个我认识的人这么叫的。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "总之，你可以用这些祝福当作再次去见她的借口。",
+		},
+	],
+	"step1_leave_B_chionotoh" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "相信我。你不会想把这么多时间都浪费在躲着她上。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "在你意识到之前，就会过去太多时间...",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
+			"dialog"			: "|shake|我要接受这个伟大任务！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_happy"],
+			"dialog"			: "这个祝福会为我的罪带来许多原谅。",
 		},
 	],
 	
@@ -645,7 +760,7 @@
 		},
 		{
 			"fast_text"			: 0,
-			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],			
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_left", "MOOD_shocked"],
 			"dialog"			: "我看到许多心心爆炸从你的眼睛出来！",
 		},
 		{
@@ -717,7 +832,6 @@
 			"dialog"			: "请你负责任地使用这种力量。",
 		},
 	],
-
 	
 	"step1_ask_B_unit_lulu" : [
 		{
@@ -784,7 +898,7 @@
 			"dialog"			: "给扎拉登礼物，负能量就会抵消。",
 		},
 	],
-
+	
 	"step1_ask_B_ventra" : [
 		{
 			"character"			: ["VOICE_static", "CHAR_ventra_right", "MOOD_normal"],
@@ -819,8 +933,7 @@
 			"dialog"			: "我正在接受这个任务！",
 		},
 	],
-
-
+	
 	"step1_ask_B_pearl_twins" : [
 		{
 			"character"			: ["VOICE_pearl", "CHAR_pearl_right", "MOOD_happy"],
@@ -923,7 +1036,10 @@
 			"dialog"			: "|wave|我必须与我新的风暴朋友分享许多原谅。",
 		},
 	],
-
+	
+	
+	
+	
 	
 	"step2_intro_generic" : [
 		{
@@ -982,6 +1098,7 @@
 	],
 	"step2_intro_B_boiler"				: "step2_intro_worry",
 	"step2_intro_B_amalga"				: "step2_intro_worry",
+	"step2_intro_B_lavalin"				: "step2_intro_worry",
 	"step2_intro_worry" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
@@ -1029,7 +1146,25 @@
 		},
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_sad"],
-			"dialog"			: "送这个礼物会为我过去的扎扎带来原谅，是吧？",
+			"dialog"			: "运送这些礼物会为我过去的扎扎带来许多原谅，对吗？",
+		},
+	],
+	"step2_intro_B_shanx_devil" 	: [
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
+			"dialog"			: "[VAL1]送了很多礼物给你！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "|wave|我看到她的脸上许多心心爆炸。",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
+			"dialog"			: "我过去正在相信她受到攻击了！",
+		},
+		{
+			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
+			"dialog"			: "但似乎给她带来了许多开心。",
 		},
 	],
 	"comment_delivery_single"	: {
@@ -1178,6 +1313,7 @@
 	"step2_leave_B_scrambla_defect"		: "step2_leave_crush",
 	"step2_leave_B_blot_blank"			: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"		: "step2_leave_crush",
+	"step2_leave_B_shanx_devil"			: "step2_leave_crush",
 	"step2_leave_B_dendrohai_twins"		: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"		: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"		: "step2_leave_crush",
@@ -1296,11 +1432,7 @@
 		},
 	],
 	
-	
-	
-	
 
-	
 	"step2_intro_B_scrambla_defect" 	: [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
@@ -1366,7 +1498,8 @@
 			"dialog"			: "...",
 		},
 	],
-
+	
+	
 	"step2_intro_B_snowball_blank" : [
 		{
 			"character"			: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_shocked"],
@@ -1447,6 +1580,7 @@
 			"dialog"			: "她之前在给你送礼物",
 		},
 	],
+	
 	
 	"step2_intro_B_momo" 	: [
 		{
@@ -1551,5 +1685,5 @@
 			"dialog"			: "那总有一天会作为我的巡回座驾。",
 		},
 	],
-
+	
 }

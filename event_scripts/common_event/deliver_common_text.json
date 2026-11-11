@@ -3,23 +3,24 @@
 	"monster_gifts"		: "[VAL1]的礼物",
 	"delivery_gifts"	: "礼物快送",
 	
-	"comment_pickup_B_sandrome"	: {
+	"comment_pickup_B_sandrome_B_sandrome"	: {
 		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_happy"],
 		"dialog"	: "扎拉登们喜欢礼物。",
 	},
-	"confirm_pickup_B_sandrome"		: {
+	"confirm_pickup_B_sandrome_B_sandrome"	: {
 		"character"	: ["VOICE_sandrome", "CHAR_sandrome_right", "MOOD_normal"],
 		"dialog"	: "她会喜欢这个吗？",
 	},
 	
-	"comment_pickup_B_storm_veyeral"	: {
+	"comment_pickup_B_storm_veyeral_B_storm_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
 		"dialog"	: "我在想她会不会喜欢这种。",
 	},
-	"confirm_pickup_B_storm_veyeral"		: {
+	"confirm_pickup_B_storm_veyeral_B_storm_veyeral"	: {
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
 		"dialog"	: "这真的能行吗？",
 	},
+	
 	
 	"step1_response_B_scrambla" : [
 		{
@@ -151,7 +152,7 @@
 			"dialog"			: "|wave|相信我们。",
 		},
 	],
-		
+	
 	
 	"step1_response_B_blot" : [
 		{
@@ -260,7 +261,7 @@
 		},
 	],
 	
-
+	
 	"step1_response_B_amalga" : [
 		{
 			"character"			: ["VOICE_amalga", "CHAR_amalga_right", "MOOD_surprised"],
@@ -350,7 +351,7 @@
 		},
 	],
 	
-
+	
 	"step1_response_B_calorie" : [
 		{
 			"character"			: ["VOICE_calorie", "CHAR_calorie_right", "MOOD_happy"],
@@ -417,7 +418,7 @@
 			"dialog"			: "假装我们说给她们每人一个，好吗？",
 		},
 	],
-
+	
 	
 	"step1_response_B_joule" : [
 		{
@@ -473,6 +474,7 @@
 			"dialog"			: "哦，并且记得要记录数据！",
 		},
 	],
+	
 	
 	"step1_response_B_rendy" : [
 		{
@@ -595,7 +597,7 @@
 		},
 	],
 	
-
+	
 	"step1_response_B_lila" : [
 		{
 			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_shocked"],
@@ -740,7 +742,124 @@
 			"dialog"			: "|shake|我非常擅长守护。",
 		},
 	],
-
+	
+	
+	"step1_response_B_shanx" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "你说的是我刚遇到的那个扎拉登吗？",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "亲爱的，我得跟你说个小秘密。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "所有扎拉登都喜欢好闻的东西。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "你为什么不将其中一件送给她作为礼物呢？",
+		},
+	],
+	"step1_response_B_shanx_defect" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "你说的是我刚遇到的那个扎拉登吗？",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "你注意到她准备战斗时爪子会变得多长吗？",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "她可是个厉害的小家伙，不过她绝不会伤害你的，亲爱的。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "不如挑一件礼物送给她作为道歉吧？",
+		},
+	],
+	"step1_response_B_shanx_twins" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "你说的是我刚才遇到的那两只扎拉登吗？",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "亲爱的，我告诉你一个小秘密。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "所有扎拉登都喜欢好闻的东西。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "不如挑一件送给她们当礼物吧？",
+		},
+	],
+	"step1_response_B_shanx_devil" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "你说的是那位恶魔吗？",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "她那漂亮的小脑袋上，顶着非常华丽的王冠。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "光是想到她，我就忍不住想放声咆哮，声音一定要比瑞提娜山爆发时还响亮！",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "我有主意了。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "不如挑一件我的礼物送给她作为道歉吧？",
+		},
+	],
+	"comment_pickup_B_shanx"	: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+		"dialog"	: "亲爱的，你想选哪件呢？",
+	},
+	"confirm_pickup_B_shanx"		: {
+		"character"	: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+		"dialog"	: "就是这件吗？",
+	},
+	"pickup_next_B_shanx" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_surprised"],
+			"dialog"			: "像她那样可爱的人，也需要点危险的东西来衬托她的强大气场。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "你最好也给她带上一件。",
+		},
+	],
+	"step1_bye_B_shanx" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "我向你保证，亲爱的。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "她一定会高兴得不得了，就像眼蝠掉进一大篮子水果里一样！",
+		},
+	],
+	"step1_bye_B_shanx_twins" : [
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "我向你保证，亲爱的。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "她们一定会高兴得不得了，就像一群跳虫在大蘑菇上蹦蹦跳跳一样！",
+		},
+	],
+	
+	
 	"step1_response_unknown_B_photoxai" : [
 		{
 			"character"			: ["VOICE_photoxai", "CHAR_photoxai_right", "MOOD_happy"],
@@ -863,7 +982,6 @@
 	],
 	
 	
-	
 	"step1_response_unknown_B_hematoren" : [
 		{
 			"character"			: ["VOICE_hematoren", "CHAR_hematoren_right", "MOOD_happy"],
@@ -923,7 +1041,7 @@
 		},
 	],
 	
-
+	
 	"step1_response_B_ombroah" : [
 		{
 			"character"			: ["VOICE_ombroah", "CHAR_ombroah_right", "MOOD_happy"],
@@ -980,6 +1098,142 @@
 	],
 	
 	
+	"step1_response_B_lavalin" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "怎么连你也。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_yell"],
+			"dialog"			: "|shake|为什么想不伤害任何人这么难！",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "哦-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "好险。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "我之前也差点伤到那个扎拉登。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "其实，我刚刚特意为她挑了一些蘑菇，想再向她道歉。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "你能帮我带一朵给她吗？",
+		},
+	],
+	"step1_response_B_lavalin_twins" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "我之前差点伤到那个扎拉登，而且-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_pain"],
+			"dialog"			: "|shake|她的妹妹也吓到我了！",
+		},
+		{
+			"scene_shake"		: 1,
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "哦-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "不过最后，她们对我都很善良。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "其实，我刚刚特意为她们挑了一些蘑菇。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "你能帮我带一朵给她们吗？",
+		},
+	],
+	"comment_pickup_B_lavalin"	: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_very_happy"],
+		"dialog"	: "说不定有些跳虫也想一起去。",
+	},
+	"confirm_pickup_B_lavalin"		: {
+		"character"	: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+		"dialog"	: "这个吗？",
+	},
+	"pickup_next_B_lavalin_blank" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "现在想来。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_sad"],
+			"dialog"			: "今天之前，从来没有人对我说过爱我。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "她值得再收到一份礼物，你说呢？",
+		},
+	],
+	"step1_bye_B_lavalin" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "很高兴认识你，[VAL3]。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_normal"],
+			"dialog"			: "我叫[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "见到那个扎拉登时，记得提醒她小心一点，好吗？",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "毕竟，谁也不知道地震什么时候会发生。",
+		},
+	],
+	"step1_bye_B_lavalin_blank" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "如果我能叫你[VAL3]，那你也可以叫我[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "记得提醒那个扎拉登小心地震，好吗？",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_blush"],
+			"dialog"			: "还有，我，呃-",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_happy_blush"],
+			"dialog"			: "|shake|我爱你。",
+		},
+	],
+	"step1_bye_B_lavalin_twins" : [
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_content"],
+			"dialog"			: "很高兴认识你，[VAL3]。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_surprised"],
+			"dialog"			: "我叫[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused"],
+			"dialog"			: "还有，见到那两只扎拉登时，记得提醒她们小心一点，好吗？",
+		},
+		{
+			"character"			: ["VOICE_lavalin", "CHAR_lavalin_right", "MOOD_confused_blush"],
+			"dialog"			: "毕竟，谁也不知道什么时候会有灾难降临。",
+		},
+	],
+	
+	
 	"comment_pickup_B_heliola"	: {
 		"character"	: ["VOICE_heliola", "CHAR_heliola_right", "MOOD_happy"],
 		"dialog"	: "你觉得她喜欢什么？",
@@ -1022,6 +1276,7 @@
 			"dialog"			: "你可能已经在她的乐队里了，之类的。",
 		},
 	],
+	
 	
 	"step1_response_B_chemory" : [
 		{
@@ -1157,6 +1412,24 @@
 			"dialog"			: "我是|shake||nu||ze||nah||norm|之火的符文！|L||!|叫我[VAL1]就好。",
 		},
 	],
+	
+	"comment_pickup_B_chionotoh"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+		"dialog"	: "选择其中任何一个。",
+	},
+	"comment_pickup_B_chionotoh_BLS_hadesoh"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised_blush"],
+		"dialog"	: "她一直都把这个留在我身上了？",
+	},
+	"comment_pickup_B_chionotoh_BLS_chionotoh"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_blush"],
+		"dialog"	: "这是我能为她做的。",
+	},
+	"confirm_pickup_B_chionotoh"	: {
+		"character"	: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+		"dialog"	: "你想要的是这个吗？",
+	},
+	
 	
 	"step1_response_B_astrayo" : [
 		{
@@ -1294,8 +1567,8 @@
 			"dialog"			: "你可以为她再带一些额外的东西，对吧甜心？",
 		},
 	],
-
-
+	
+	
 	"comment_pickup_B_unit_lulu"	: {
 		"character"	: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 		"dialog"	: "选择这些礼物中的一个。",
@@ -1314,7 +1587,7 @@
 			"dialog"			: "本单元被给予了[VAL1]的称呼。|L|你可以以此称呼她。",
 		},
 	],
-
+	
 	
 	"step1_response_B_null_unit" : [
 		{
@@ -1367,7 +1640,7 @@
 		},
 	],
 	
-
+	
 	"step1_response_B_prisma" : [
 		{
 			"character"			: ["VOICE_prisma", "CHAR_prisma_right", "MOOD_sad"],
@@ -1428,6 +1701,7 @@
 			"dialog"			: "本单元被给予了棱镜的称呼。",
 		},
 	],
+	
 	
 	"step1_response_B_syncron" : [
 		{
@@ -1502,6 +1776,7 @@
 		},
 	],
 	
+	
 	"step1_response_B_sentinel_4x" : [
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_sad"],
@@ -1544,7 +1819,7 @@
 			"dialog"			: "然而，你也可以使用哨卫的简称。",
 		},
 	],
-
+	
 	
 	"comment_pickup_B_ventra"	: {
 		"character"	: ["VOICE_ventra", "CHAR_ventra_right", "MOOD_happy"],
@@ -1579,7 +1854,6 @@
 		},
 	],
 	
-
 	
 	"step1_response_B_dot" : [
 		{
@@ -1628,8 +1902,7 @@
 		},
 	],
 	
-
-
+	
 	"step1_response_unknown_B_glacia" : [
 		{
 			"character"			: ["VOICE_glacia", "CHAR_glacia_right", "MOOD_shocked"],
@@ -1842,7 +2115,7 @@
 		},
 	],
 	
-
+	
 	"step1_response_B_momo" : [
 		{
 			"character"			: ["VOICE_momo", "CHAR_momo_right", "MOOD_surprised"],
@@ -2009,7 +2282,6 @@
 	],
 	
 	
-	
 	"step1_response_B_burning_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_burning_veyeral_right", "MOOD_happy"],
@@ -2056,6 +2328,7 @@
 			"dialog"			: "|wave|我的眼睛之后见你！",
 		},
 	],
+	
 	
 	"step1_response_B_voltage_veyeral" : [
 		{
@@ -2523,9 +2796,8 @@
 		"character"	: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
 		"dialog"	: "你确定吗？",
 	},
-
-
-
+	
+	
 	"step1_response_B_molten_veyeral" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
@@ -2603,16 +2875,68 @@
 		},
 	],
 	
-
+	
+	"step1_response_B_blizz_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "所以，她甚至能够够到森林里体型最大的那些怪物。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "你是在担心她会因此生你的气吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我有个完美的主意。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "从我的城堡里挑一件上等的装饰品吧。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "把它当作礼物送给她。",
+		},
+	],
+	"comment_pickup_B_blizz_veyeral"	: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+		"dialog"	: "从这些里面挑一件送给她吧。",
+	},
+	"confirm_pickup_B_blizz_veyeral"		: {
+		"character"	: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+		"dialog"	: "你觉得她会喜欢吗？",
+	},
+	"pickup_next_B_blizz_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我差点忘了。|L|你还得再带一件。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "|wave|这一件是送给蓝色维目尔的。",
+		},
+	],
+	"step1_bye_unknown_B_blizz_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我叫[VAL1]。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "也就是    |wave|这座城堡的女王。",
+		},
+	],
+	
+	
 	"comment_pickup_B_emerald"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "该球体为那些感到骄傲之羞愧的人给以祝福。",
 	},
-	"confirm_pickup_B_emerald"		: {
+	"confirm_pickup_B_emerald"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "这是你想要的吗？",
 	},
-	"comment_pickup_B_ruby"	: {
+	"comment_pickup_B_ruby"		: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "该球体为那些满足于沮丧之人给以祝福。",
 	},
@@ -2624,7 +2948,7 @@
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "该球体为那些接收否认之人给以祝福。",
 	},
-	"confirm_pickup_B_topaz"		: {
+	"confirm_pickup_B_topaz"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "这是你想要的吗？",
 	},
@@ -2632,7 +2956,7 @@
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "该球体为那些感到安宁之焦虑的人给以祝福。",
 	},
-	"confirm_pickup_B_sapphire"		: {
+	"confirm_pickup_B_sapphire"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "这是你想要的吗？",
 	},
@@ -2640,7 +2964,7 @@
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "该球体为那些感到自信之不安的人给以祝福。",
 	},
-	"confirm_pickup_B_citrine"		: {
+	"confirm_pickup_B_citrine"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "这是你想要的吗？",
 	},
@@ -2648,11 +2972,12 @@
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "该球体为那些归属于孤独之人给以祝福。",
 	},
-	"confirm_pickup_B_amethyst"		: {
+	"confirm_pickup_B_amethyst"	: {
 		"character"	: ["VOICE_gem", "CHAR_gem_right", "MOOD_normal"],
 		"dialog"	: "这是你想要的吗？",
 	},
-
+	
+	
 	"comment_pickup_B_anomaly"	: {
 		"character"	: ["VOICE_static", "CHAR_center", "MOOD_normal"],
 		"dialog"	: "|C3|她浑然不觉我的存在，但我已身边留下这些祝福，只为促成一次美好的相遇。",

@@ -66,19 +66,19 @@
 	
 	
 	
-	"comment_take"		: {
+	"comment_take_normal"		: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],
 		"dialog"	: "|wave|你可以收下它！",
 	},
-	"comment_unknown"	: {
+	"comment_take_unknown"	: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
 		"dialog"	: "咱记不清这个了，但是把它带走吧！",
 	},
-	"comment_over"		: {
+	"comment_take_over"		: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_sad"],
 		"dialog"	: "嗯... 咱想留下它。|L|对唔起。",
 	},
-	"comment_limit"		: {
+	"comment_quick_limit"		: {
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
 		"dialog"	: "你带不了那么多，傻傻。",
 	},
@@ -86,7 +86,6 @@
 		"character"	: ["VOICE_lila", "CHAR_lila_right", "MOOD_normal"],
 		"dialog"	: "咱要把它给你吗？",
 	},
-	
 	"gift_taken" 		: [
 		{
 			"character"			: ["VOICE_lila", "CHAR_lila_right", "MOOD_happy"],

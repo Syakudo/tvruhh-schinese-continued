@@ -44,7 +44,7 @@
 		"[rule_free1]"			: "每局游戏|C3|仅能遭遇1个免费礼物事件。|C0|其全部遵循|C3|\"无人的礼物\"|C0|这一事件的规则。",
 		"[rule_free2]"			: "这种类型的每个事件被选中的概率均相等。",
 		"[rule_trade1]"			: "每局游戏|C3|仅能遭遇1个交易事件，|C0|且|C3|因果|C0|能够增加发生概率。",
-		"[rule_trade2]"			: "携带任何|C3|[VAL1]|C0|偏好的礼物能够增加选中这个事件的概率。",
+		"[rule_trade2]"			: "携带任何|C3|[VAL1]|C0|偏好的礼物能够增加选中这个事件的概率，相较于其他交易事件。",
 		"[rule_treasure1]"		: "每局游戏|C3|仅能遭遇1个宝藏事件，|C0|并且更有可能在一局游戏末尾时发生。",
 		"[rule_treasure2]"		: "如果一局游戏的长度|C3|至少达到7个章节，|C0|则必定发生宝藏事件。",
 		"[rule_bonding1]"		: "在|C3|[VAL1]|C0|被爱过后，这个事件有概率发生。",
@@ -230,6 +230,26 @@
 		"rule4"		: "[rule_bounty_limit]",
 		"stage_t"	: "这些怪物在躲着你！",
 	},
+	"E_stage_gloom" : {
+		"name"		: "阴郁怪物",
+		"hint"		: "[hint_stage_common]",
+		"details"	: "这群怪物的情绪格外低落。|C3|它们全都会在我们的梦境中制造阴郁之墙|C0|，即使换作平时，它们通常不会这么做。|L||L|我担心，总有一天会遇到一只怪物，它的整个梦境都被忧郁笼罩。到那时，我究竟该怎么办才好？",
+		"rule1"		: "[rule_stage1]",
+		"rule2"		: "[rule_stage2]",
+		"rule3"		: "[rule_karma]",
+		"rule4"		: "[rule_bounty_limit]",
+		"stage_t"	: "阴郁笼罩了这些怪物！",
+	},
+	"E_stage_invader" : {
+		"name"		: "幽火入侵",
+		"hint"		: "[hint_stage_common]",
+		"details"	: "幽火又一次闯入了我与他人共享的梦境。有时，一天下来，我甚至会在好几个不同的梦境中见到她！|L||L|我很好奇，究竟有很多个幽火，还是只有同一个幽火在不断地现身又消失？她看起来属于恐瘤类怪物，但这类怪物通常都是成群结队出现的。她是唯一一个愿意把自己的真名告诉我的恐瘤怪物。希望这不是因为她是唯一一个知道自己名字的恐瘤怪物。",
+		"rule1"		: "[rule_stage1]",
+		"rule2"		: "[rule_stage2]",
+		"rule3"		: "[rule_karma]",
+		"rule4"		: "[rule_bounty_limit]",
+		"stage_t"	: "Another monster has invaded!",
+	},
 	"E_stage_mirror" : {
 		"name"		: "翻转之梦",
 		"hint"		: "[hint_stage_common]",
@@ -248,6 +268,7 @@
 		"rule2"		: "[rule_not_chapter1]",
 		"rule3"		: "[rule_stage1]",
 		"rule4"		: "[rule_stage2]",
+		"stage_t"	: "[USE_NAME]",
 	},
 	"E_stage_all_panic" : {
 		"name"		: "大家一起恐慌！",
@@ -258,6 +279,7 @@
 		"rule3"		: "[rule_not_chapter1]",
 		"rule4"		: "[rule_stage1]",
 		"rule5"		: "[rule_stage2]",
+		"stage_t"	: "[USE_NAME]",
 	},
 	"E_stage_radiant" : {
 		"name"		: "一切皆为光耀",
@@ -377,7 +399,7 @@
 		"rule2"		: "[rule_stage2]",
 		"stage_t"	: "一大群怪物！",
 	},
-
+	
 	
 	
 	
@@ -496,7 +518,7 @@
 		"details"	: "血玛托壬想要用我的血创造一片花园，所以我给了她一些。虽然不疼，但我之后确实感到有些虚弱。她给了我一些食物，让我感觉好些了。|L||L|她有9个礼物可以交易，包括她自己做的一些心型石。|L||L|知道我的一部分可以被用于那样创造生命，真的是很特别的感觉。希望她明天不会忘记。",
 		"rule1"		: "[rule_visit]",
 		"rule2"		: "[rule_trade1]",
-		"rule3"		: "拥有|C3|更高的最大生命|C0|或者处于|C3|低生命|C0|都会增加这个事件被选中的概率。",
+		"rule3"		: "拥有|C3|更高的最大生命|C0|或者处于|C3|低生命|C0|都会增加这个事件被选中的概率，相较于其他交易事件。",
 		"rule4"		: "你必须至少有|C3|10点最大生命|C0|以让这个事件被选择。",
 	},
 	"E_trade_chemory" : {
@@ -567,7 +589,6 @@
 	
 	
 	
-	
 	"E_bond_voladrome" : {
 		"name"		: "熔岩症候群的宝库探索",
 		"hint"		: "[hint_chance]",
@@ -578,7 +599,7 @@
 	},
 	"E_bond_shanx" : {
 		"name"		: "星尘远征",
-		"hint"		: "[hint_chance]",
+		"hint"		: "[hint_chance_multi]",
 		"details"	: "闪克斯今天给我看了一个特别有意思的游戏，叫星之宝石。一开始看起来很简单，但分数很快就会疯狂累加起来！我真不知道闪克斯是怎么能那么快把那些数字全都算清楚的。|L||L|她说她喜欢这个游戏，是因为卡牌上那些漂亮的星星宝石。又一个沉迷闪闪发亮东西的守护者。",
 		"rule1"		: "[rule_bonding1]",
 		"rule2"		: "[rule_bonding2]",
@@ -656,6 +677,7 @@
 		"rule2"		: "[rule_bonding2]",
 		"rule3"		: "[rule_bonding3]",
 	},
+	
 	
 	
 	
@@ -782,6 +804,7 @@
 	
 	
 	
+	
 	"E_tower_free" : {
 		"name"		: "礼物发生器",
 		"hint"		: "[hint_tower]",
@@ -854,4 +877,5 @@
 		"details"	: "我今天在高塔里开始觉得有些孤独了，但这时紫宝石来见我了，和平常一样！她可以用这些制作礼物:|L||C3|我的一个礼物|L|恐慌攻击|L|最大生命|C0||L||L|她总是有10个不同礼物的想法。所有超新星的宝石似乎都很喜欢创造！我也很高兴能见到她们这样！",
 		"rule1"		: "[rule_tower_monster]",
 	},
+
 }

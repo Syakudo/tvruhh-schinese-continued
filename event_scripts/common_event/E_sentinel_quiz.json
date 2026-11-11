@@ -105,6 +105,8 @@
 	"default_incorrect_3"	: "本单元识别到了你的悲伤。",
 	"default_incorrect_4"	: "本单元将这一问题设置地过难。",
 	
+	"first_battle"		: "本单元总是在观察。",
+	"prev_battle"		: "本单元观察到了那场激烈的战斗。",
 	"correct_senti_1"	: "本单元因你对她如此了解而感到相当开心。",
 	"correct_senti_2"	: "只有真正的朋友才会对本单元了解到这种程度。",
 	"correct_senti_3"	: "你对本单元的了解令她的快乐值超越计量。",
@@ -337,7 +339,28 @@
 		"question"	: "|C3|化莫里|C0|会拒绝什么类型的礼物？",
 		"incorrect"	: "她会拒绝|C3|[VAL3]礼物|C0|，因为电流会扰乱她的转化过程。",
 	},
-	
+		"seriesA_51"		: {
+		"question"	: "祛毒时间开始时，|C3|剧毒维目尔|C0|会给你多少礼物？",
+	},
+	"seriesA_52"		: {
+		"question"	: "当你拜访她时，|C3|雷斯塔尤|C0|会给你多少免费礼物？",
+	},
+	"seriesA_53"		: {
+		"question"	: "当你拜访她时，|C3|珍珠|C0|会给你多少免费礼物？",
+	},
+	"seriesA_54"		: {
+		"question"	: "以下哪些怪物会触发|C3|羁绊时间|C0|事件？",
+		"incorrect"	: "|C3|[VAL3]|C0|是那位想要更多在一起的时间的怪物。",
+	},
+	"seriesA_55"		: {
+		"question"	: "下列哪个怪物想要和你一起玩|C3|死亡与毁灭地下城|C0|？",
+		"correct"	: "几维为所有角色绘制的画像，充分展现了这只年轻怪物非凡的艺术天赋。",
+	},
+	"seriesA_56"		: {
+		"question"	: "下列哪个怪物想要和你一起玩|C3|死亡与毁灭地下城|C0|？",
+		"correct"	: "名为|C3|复仇者7X|C0|的恶魔领主和本单元非常相似，你也这么觉得吗？",
+	},
+
 	
 	
 	"seriesB_00"		: {
@@ -390,14 +413,14 @@
 	
 	"seriesD_00"		: {
 		"question"	: "今天你第一个爱过的怪物是？",
-		"correct"	: "本单元一直在观察。",
+		"correct"	: "[first_battle]",
 		"incorrect"	: "你今天第一个爱过的怪物是|C3|[VAL3]。",
 		"senti_o"	: "本单元确保今天第一个来见你。",
 		"senti_x"	: "你忘记本单元是你今天第一场战斗了？",
 	},
 	"seriesD_01"		: {
 		"question"	: "你最近和谁战斗了？",
-		"correct"	: "本单元见证了那场激烈的战斗。",
+		"correct"	: "[prev_battle]",
 		"incorrect"	: "你刚刚和|C3|[VAL3]|C0|战斗过了。",
 		"senti_o"	: "本单元来迟了，差点错过你了。",
 		"senti_x"	: "[forgot_sentinel]",
@@ -414,7 +437,49 @@
 		"senti_o"	: "[senti_love_o]",
 		"senti_x"	: "你忘记本单元今天早些时候对你说过\"[VAL3]\"了吗？",
 	},
-	
+	"seriesD_04"		: {
+		"question"	: "你今天第一次爱的怪物是哪种类型的？",
+		"correct"	: "[first_battle]",
+		"incorrect"	: "你的第一场战斗是和|C3|[VAL1]，|C0|一只|C3|[VAL3]|C0|类型的怪物。",
+		"senti_o"	: "[remember_zaramech]",
+		"senti_x"	: "[forgot_zaramech]",
+	},
+	"seriesD_05"		: {
+		"question"	: "你刚刚战斗的怪物是哪种类型的？",
+		"correct"	: "[prev_battle]",
+		"incorrect"	: "你刚刚战斗的怪物是|C3|[VAL1]，|C0|一只|C3|[VAL3]|C0|类型的怪物。",
+		"senti_o"	: "[remember_zaramech]",
+		"senti_x"	: "[forgot_zaramech]",
+	},
+	"seriesD_06"		: {
+		"question"	: "你在先前的战斗中受到了任何攻击伤害吗？",
+		"correct"	: "本单元见证了你完美的胜利。",
+		"incorrect"	: "你已经忘记了你完美的胜利了吗？",
+		"senti_o"	: "你在本单元这里达成了完美的胜利。",
+		"senti_x"	: "你已经忘记了你在本单元这里达成的完美胜利。",
+	},
+	"seriesD_07"		: {
+		"question"	: "你在先前的战斗中受到了任何攻击伤害吗？",
+		"correct"	: "本单元很高兴看到你原谅了|C3|[VAL1]|C0|。",
+		"incorrect"	: "|C3|[VAL1]|C0|确实击中了你。",
+		"senti_o"	: "本单元仍不敢相信你会原谅她。",
+		"senti_x"	: "本单元确实伤到了你，但她希望你可以原谅她。",
+	},
+	"seriesD_08"		: {
+		"question"	: "你在先前的战斗中受到了多少次攻击伤害？",
+		"correct"	: "本单元很高兴看到你原谅了|C3|[VAL1]|C0|。",
+		"incorrect"	: "|C3|[VAL1]|C0|击中了你|C3|[VAL2]次。|C0|",
+		"senti_o"	: "本单元仍不敢相信你会原谅她。",
+		"senti_x"	: "本单元伤到了你|C3|[VAL2]次，|C0|但她希望你可以原谅她。",
+	},
+	"seriesD_09"		: {
+		"question"	: "你在先前的战斗中达成了全连击吗？",
+	},
+	"seriesD_10"		: {
+		"question"	: "你在先前的战斗中使用了多少恐慌攻击？",
+		"incorrect"	: "你在先前的战斗中使用的恐慌攻击为|C3|[VAL3]个。",
+	},
+
 	
 	
 	"seriesE_00"		: {
@@ -477,6 +542,37 @@
 		"incorrect"	: "你可以从|C3|[VAL1]|C0|处提取|C3|[VAL3]|C0|魔尘。",
 		"senti_o"	: "[blue_mote_o]",
 		"senti_x"	: "[blue_mote_x]",
+	},
+	"seriesF_05"		: {
+		"question"	: "你可以从下列哪种怪物中提取|C3|[VAL2]|C0|魔尘？",
+		"incorrect"	: "你可以从|C3|[VAL3]|C0|中提取|C3|[VAL2]|C0|魔尘。",
+		"senti_o"	: "[blue_mote_o]",
+		"senti_x"	: "[blue_mote_x]",
+	},
+	"seriesF_06"		: {
+		"question"	: "|C3|[VAL1]|C0|是一种|C3|[VAL2]|C0|的名字吗？",
+		"incorrect"	: "|C3|[VAL1]|C0|是一种|C3|[VAL3]|C0|的名字。",
+		"DEV_NOTE"	: "[VAL2] and [VAL3] will be set as one of the 'ans_gift_{type}' texts found below",
+	},
+	"seriesF_07"		: {
+		"question"	: "|C3|[VAL1]|C0|是哪种礼物的名字？",
+		"incorrect"	: "|C3|[VAL1]|C0|是一种|C3|[VAL3]|C0|的名字。",
+		"DEV_NOTE"	: "[VAL3] will be set as one of the 'ans_gift_{type}' texts found below",
+	},
+	"seriesF_08"		: {
+		"question"	: "以下哪种礼物是一种|C3|[VAL2]？|C0|",
+		"incorrect"	: "|C3|[VAL3]|C0|是|C3|[VAL2]",
+		"DEV_NOTE"	: "[VAL2] will be set as one of 'the ans_gift_{type}' texts found below",
+	},
+	"seriesF_09"		: {
+		"question"	: "以下哪种礼物不是|C3|[VAL2]？|C0|",
+		"incorrect"	: "|C3|[VAL3]|C0|不是|C3|[VAL2]",
+		"DEV_NOTE"	: "[VAL2] will be set as one of 'the ans_gift_{type}' texts found below",
+	},
+	"seriesF_10"		: {
+		"question"	: "|C3|[VAL1]|C0|礼物是什么阶级？",
+		"incorrect"	: "|C3|[VAL1]|C0|实际上是|C3|[VAL3]。",
+		"DEV_NOTE"	: "[VAL3] will be set as one of the 'ans_rank_{type}' texts found below",
 	},
 	
 	
@@ -730,6 +826,48 @@
 		"question"	: "其中哪一个怪物在战斗中没有眼睛？",
 		"incorrect"	: "|C3|[VAL3]|C0|是没有眼睛的怪物。",
 	},
+	"seriesG_76"		: {
+		"question"	: "哪一群维目尔会邀请你一起玩游戏？",
+	},
+	"seriesG_77"		: {
+		"question"	: "|C3|苔藓|C0|的每根藤蔓上有多少可破坏的球体？",
+	},
+	"seriesG_78"		: {
+		"question"	: "|C3|琥珀|C0|的刺球有多少根刺？",
+	},
+	"seriesG_79"		: {
+		"question"	: "|C3|黯驳|C0|可以有多少种不同的颜色形态？",
+		"incorrect"	: "除了她的6种额外颜色，黯驳本身还有一种基础颜色，因此总共为7种。",
+	},
+	"seriesG_80"		: {
+		"question"	: "|C3|明艳维目尔|C0|一般情况下会使用危险泡泡攻击吗？",
+	},
+	"seriesG_81"		: {
+		"question"	: "|C3|暴雪维目尔|C0|一般情况下会使用危险泡泡攻击吗？",
+	},
+	"seriesG_82"		: {
+		"question"	: "以下哪种怪物不会使用燃烧元素攻击？",
+	},
+	"seriesG_83"		: {
+		"question"	: "在和|C3|昼夜|C0|的战斗中，陨石击中墙壁时你会失去连击吗？",
+	},
+	"seriesG_84"		: {
+		"question"	: "|C3|琥珀之瘤|C0|身上是否印有|soh|符文？",
+	},
+	"seriesG_85"		: {
+		"question"	: "|C3|高压之瘤|C0|身上是否印有|teh|符文？",
+		"incorrect"	: "很容易将|teh|与|yo|符文搞混。",
+	},
+	"seriesG_86"		: {
+		"question"	: "|C3|纯粹跚牡拉|C0|在她的最终阶段会为你维持连击吗？",
+	},
+	"seriesG_87"		: {
+		"question"	: "|C3|纯粹灵魂|C0|在她的最终阶段会为你维持连击吗？",
+	},
+	"seriesG_88"		: {
+		"question"	: "|C3|全能之拉|C0|不会用以下哪种元素攻击？",
+	},
+
 	
 	
 	
@@ -766,6 +904,31 @@
 		"senti_o"	: "[correct_sentinel]",
 		"senti_x"	: "在这一形态下，本单元对|C3|[VAL3]|C0|存在抗性。",
 	},
+	"seriesH_06"		: {
+		"question"	: "以下哪种怪物可以使用|C3|[VAL2]|C0|元素攻击？",
+		"incorrect"	: "|C3|[VAL1]|C0|可以使用|C3|[VAL2]|C0|元素攻击。",
+		"senti_o"	: "[correct_sentinel]",
+		"senti_x"	: "[wrong_sentinel]",
+	},
+	"seriesH_07"		: {
+		"question"	: "以下哪种怪物不会使用|C3|[VAL2]|C0|元素攻击？",
+		"incorrect"	: "|C3|[VAL1]|C0|不会使用|C3|[VAL2]|C0|元素攻击。",
+		"senti_o"	: "[correct_sentinel]",
+		"senti_x"	: "[wrong_sentinel]",
+	},
+	"seriesH_08"		: {
+		"question"	: "以下哪种怪物对于|C3|[VAL2]|C0|元素有弱点？",
+		"incorrect"	: "|C3|[VAL1]|C0|对于|C3|[VAL2]|C0|元素有弱点。",
+		"senti_o"	: "[correct_sentinel]",
+		"senti_x"	: "[wrong_sentinel]",
+	},
+	"seriesH_09"		: {
+		"question"	: "以下哪种怪物对于|C3|[VAL2]|C0|元素有抗性？",
+		"incorrect"	: "|C3|[VAL1]|C0|对于|C3|[VAL2]|C0|元素有抗性。",
+		"senti_o"	: "[correct_sentinel]",
+		"senti_x"	: "[wrong_sentinel]",
+	},
+
 	
 	
 	
@@ -798,6 +961,19 @@
 		"senti_o"	: "[senti_fear_o]",
 		"senti_x"	: "[senti_said_x]",
 	},
+	"seriesI_05"		: {
+		"question"	: "在你和她战斗之前，|C3|[VAL1]|C0|会说|C3|\"[VAL2]\"吗？",
+		"incorrect"	: "在你和她战斗之前，|C3|[VAL1]|C0|会说\"[VAL3]\"。",
+		"senti_o"	: "[senti_fear_o]",
+		"senti_x"	: "[senti_said_x]",
+	},
+	"seriesI_06"		: {
+		"question"	: "在你向她展示爱后，|C3|[VAL1]|C0|会说|C3|\"[VAL2]\"吗？",
+		"incorrect"	: "在你向她展示爱后，|C3|[VAL1]|C0|会说\"[VAL3]\"。",
+		"senti_o"	: "[senti_love_o]",
+		"senti_x"	: "[senti_said_x]",
+	},
+
 	
 	
 	
@@ -828,6 +1004,17 @@
 	"2_elements"		: "[VAL1]和[VAL2]",
 	"3_elements"		: "[VAL1]，[VAL2]，和[VAL3]",
 	"4_elements"		: "[VAL1]，[VAL2]，[VAL3]和[VAL4]",
+
+	"ans_gift_power"	: "力量礼物",
+	"ans_gift_bonus"	: "额外礼物",
+	"ans_gift_quick"	: "快速礼物",
+	"ans_gift_bounty"	: "馈赠礼物",
+	"ans_gift_blessing"	: "祝福礼物",
+	"ans_gift_burden"	: "负担礼物",
+	
+	"ans_rank_simple"	: "简单力量礼物",
+	"ans_rank_lovely"	: "可爱力量礼物",
+	"ans_rank_wonderful": "奇妙力量礼物",
 	
 	"glyph_answers"	: {
 		"ans_soh_1"		: "火焰",

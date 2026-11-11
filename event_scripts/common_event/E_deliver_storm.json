@@ -15,7 +15,7 @@
 		},
 	],
 	
-	"my_name"	: "风暴维目尔",
+	"my_name"		: "风暴维目尔",
 	"my_nickname"	: "小风",
 	
 	"step1_ask_generic" : [
@@ -87,6 +87,7 @@
 	"step1_ask_B_photoxai"				: "step1_ask_unknown",
 	"step1_ask_B_hematoren"				: "step1_ask_unknown",
 	"step1_ask_B_ombroah"				: "step1_ask_unknown",
+	"step1_ask_B_lavalin"				: "step1_ask_unknown",
 	"step1_ask_B_glacia"				: "step1_ask_unknown",
 	"step1_ask_B_pearl"					: "step1_ask_unknown",
 	"step1_ask_unknown" 	: [
@@ -184,7 +185,8 @@
 		},
 	],
 	
-
+	
+	
 	"step1_leave_generic" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -222,10 +224,11 @@
 	],
 	"step1_leave_B_blot"				: "step1_leave_unknown",
 	"step1_leave_B_amalga"				: "step1_leave_unknown",
-	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_voladrome"			: "step1_leave_unknown",
+	"step1_leave_B_photoxai"			: "step1_leave_unknown",
 	"step1_leave_B_hematoren"			: "step1_leave_unknown",
 	"step1_leave_B_ombroah"				: "step1_leave_unknown",
+	"step1_leave_B_lavalin"				: "step1_leave_unknown",
 	"step1_leave_B_hadesoh"				: "step1_leave_unknown",
 	"step1_leave_B_unit_lulu"			: "step1_leave_unknown",
 	"step1_leave_B_null_unit"			: "step1_leave_unknown",
@@ -292,10 +295,8 @@
 			"dialog"			: "你面前的球体就是[VAL1],    你面前的球体。",
 		},
 	],
-
 	
-
-
+	
 	
 	"step1_ask_B_scrambla_defect" : [
 		{
@@ -440,6 +441,22 @@
 		},
 	],
 	
+	"step1_leave_B_shanx_devil" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我会告诉她这些是来自你的。",
+		},
+		{
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_normal"],
+			"dialog"			: "亲爱的，这现在算不上我的事了。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_shanx", "CHAR_shanx_right", "MOOD_happy"],
+			"dialog"			: "不过我倒不介意偷偷收到关于她可爱反应的小报告。",
+		},
+	],
+	
 	"step1_leave_B_dendrohai_twins" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -458,7 +475,7 @@
 			"dialog"			: "我还以为我永远看不到这一天呢。",
 		},
 	],
-
+	
 	"step1_ask_B_heliola" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
@@ -537,7 +554,7 @@
 			"dialog"			: "|shake|我要失去理智了。",
 		},
 	],
-
+	
 	"step1_ask_B_hadesoh" : [
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_surprised"],
@@ -569,7 +586,7 @@
 		},
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
-			"dialog"			: "我猜某个扎拉登一定搞乱了你的|shake||nu||ze||nah||norm|想法，没错吧？ ",
+			"dialog"			: "I bet a Zaraden just messed with your |shake||nu||ze||nah||norm| mind. Am I right?",
 		},
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
@@ -586,6 +603,75 @@
 		{
 			"character"			: ["VOICE_hadesoh", "CHAR_hadesoh_right", "MOOD_aggressive"],
 			"dialog"			: "你在找借口再去见她一面，我能从你的眼中看出来。",
+		},
+	],
+	
+	"step1_ask_B_chionotoh" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "谢谢你陪我一起散步。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我可不觉得这算是在散步。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_angry"],
+			"dialog"			: "你又开始怀疑自己了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "我只是在开玩笑。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "|wave|我知道。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_normal"],
+			"dialog"			: "那么，你现在准备好去见她了吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "这个嘛...",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_confused"],
+			"dialog"			: "我来帮你做个决定吧。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "你也能看见这些奇怪的礼物吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "那是什么？",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_happy"],
+			"dialog"			: "我也不太清楚。|L|我自己也是最近才开始看见它们的。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_very_happy"],
+			"dialog"			: "不过我知道，你可以拿其中一件当借口，再去见她一次。",
+		},
+	],
+	"step1_leave_B_chionotoh" : [
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_surprised"],
+			"dialog"			: "相信我。你不会想把时间全都浪费在躲着她这件事上的。",
+		},
+		{
+			"character"			: ["VOICE_chionotoh", "CHAR_chionotoh_right", "MOOD_sad"],
+			"dialog"			: "等你回过神来，可能已经过去太久了...",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "我明白了。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "我不会让这种事发生的。",
 		},
 	],
 	
@@ -763,7 +849,7 @@
 			"dialog"			: "可别把我的秘密全抖出来。",
 		},
 	],
-
+	
 	"step1_ask_B_unit_lulu" : [
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
@@ -875,7 +961,7 @@
 			"dialog"			: "把我的一些垃圾作为礼物带给她就好。",
 		},
 	],
-
+	
 	"step1_ask_B_prisma" : [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
@@ -1036,7 +1122,7 @@
 			"dialog"			: "蓝色维目尔什么都能做到。",
 		},
 	],
-
+	
 	"step1_ask_B_sentinel_4x" : [
 		{
 			"character"			: ["VOICE_sentinel", "CHAR_sentinel_right", "MOOD_upset"],
@@ -1187,7 +1273,7 @@
 			"dialog"			: "今天不可预料的事情真是一件接着一件。",
 		},
 	],
-
+	
 	"step1_ask_B_dot" : [
 		{
 			"character"			: ["VOICE_dot", "CHAR_dot_right", "MOOD_awkward"],
@@ -1324,7 +1410,6 @@
 			"dialog"			: "我甚至都不知道我要怎么才能做到。",
 		},
 	],
-	
 	
 	"step1_ask_B_pearl_twins" : [
 		{
@@ -1507,6 +1592,82 @@
 		},
 	],
 	
+	"step1_ask_B_blizz_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我完全明白你现在的感受。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "但她绝对不可能是在生你的气。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_sad"],
+			"dialog"			: "你怎么能这么肯定？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "她爬遍了我整座心灵城堡，还把我从噩梦中救了出来。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "她做了什么？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "难道我们经历的不是同一件事吗？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我当时是一座布满陷阱的大城堡，而且-",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_angry"],
+			"dialog"			: "细节不重要。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "你有没有注意到，我的新城堡里有好多精美的装饰品？",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "确实挺漂亮的。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_happy"],
+			"dialog"			: "我想请你挑一件，把它当作礼物送给她！",
+		},
+	],
+	"step1_leave_B_blizz_veyeral" : [
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "|wave|太谢谢你了。|norm||L|我这就去找她。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_normal"],
+			"dialog"			: "对了，你的新城堡真高啊，里面还摆满了漂亮的装饰品。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "说到这个。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_normal"],
+			"dialog"			: "我在想...|L||!|或许我们所有姐妹都可以住在这里。",
+		},
+		{
+			"character"			: ["VOICE_veyeral", "CHAR_blizzard_veyeral_right", "MOOD_sad"],
+			"dialog"			: "你也可以搬来这里住，   如果你愿意的话。",
+		},
+		{
+			"love_hearts"		: 1,
+			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_left", "MOOD_happy"],
+			"dialog"			: "有地方住了？|L|我真的可以拥有这样的生活吗？",
+		},
+	],
+	
+	
+	
 	
 	
 	"step2_intro_generic" : [
@@ -1566,6 +1727,7 @@
 	],
 	"step2_intro_B_boiler"				: "step2_intro_worry",
 	"step2_intro_B_amalga"				: "step2_intro_worry",
+	"step2_intro_B_lavalin"				: "step2_intro_worry",
 	"step2_intro_worry" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -1586,13 +1748,14 @@
 	],
 	"step2_intro_B_blot_blank"			: "step2_intro_crush",
 	"step2_intro_B_calorie_twins"		: "step2_intro_crush",
+	"step2_intro_B_shanx_devil"			: "step2_intro_crush",
 	"step2_intro_B_dendrohai_twins"		: "step2_intro_crush",
 	"step2_intro_B_heliola_twins"		: "step2_intro_crush",
 	"step2_intro_B_chemory_blank"		: "step2_intro_crush",
 	"step2_intro_B_chemory_twins"		: "step2_intro_crush",
 	"step2_intro_B_astrayo_twins"		: "step2_intro_crush",
-	"step2_intro_B_frozen_veyeral_devil": "step2_intro_crush",
 	"step2_intro_B_philolu"				: "step2_intro_crush",
+	"step2_intro_B_frozen_veyeral_devil": "step2_intro_crush",
 	"step2_intro_crush" 	: [
 		{
 			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_sad"],
@@ -1784,6 +1947,7 @@
 	"step2_leave_B_scrambla_defect"			: "step2_leave_crush",
 	"step2_leave_B_blot_blank"				: "step2_leave_crush",
 	"step2_leave_B_calorie_twins"			: "step2_leave_crush",
+	"step2_leave_B_shanx_devil"				: "step2_leave_crush",
 	"step2_leave_B_dendrohai_twins"			: "step2_leave_crush",
 	"step2_leave_B_heliola_twins"			: "step2_leave_crush",
 	"step2_leave_B_chemory_blank"			: "step2_leave_crush",
@@ -1845,7 +2009,6 @@
 			"dialog"			: "我要慢慢的让她放下。",
 		},
 	],
-	
 	"step2_leave_crush_twins" 	: [
 		{
 			"character"			: ["VOICE_ryden", "CHAR_ryden_left", "MOOD_suspicious2"],
@@ -1969,7 +2132,6 @@
 			"dialog"			: "...",
 		},
 	],
-
 	
 	"step2_leave_B_vitrea_defect" 	: [
 		{
@@ -2011,5 +2173,5 @@
 			"dialog"			: "那一定是因为完美沾到了你身上。",
 		},
 	],
-
+	
 }
