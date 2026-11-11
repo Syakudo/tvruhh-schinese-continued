@@ -30,6 +30,10 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "基于这些原因，建议你|C3|无视堡垒中的大部分陷阱|C0|。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 			"dialog"		: "你的主要目标会是破坏守卫堡垒的|C3|特殊随从。|C0|",
 		},
 		{

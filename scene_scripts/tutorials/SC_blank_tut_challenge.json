@@ -57,11 +57,11 @@
 		{
 			"show_tutorial"		: "karma_ring",
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "拥有更多的|C3|因果|C0|能够增加找到带有额外礼物的怪物的几率。",
+			"dialog"			: "拥有更多的|C3|因果|C0|能够增加找到带有更多礼物的怪物的几率。",
 		},
 		{
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"			: "拥有更多的|C3|因果|C0|同样能够减少礼物上带有|C3|挑战|C0|的概率。",
+			"dialog"			: "拥有更多的|C3|因果|C0|同样能够减少每个礼物上带有|C3|挑战|C0|的概率。",
 		},
 		{
 			"show_tutorial"		: "none",

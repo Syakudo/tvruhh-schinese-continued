@@ -13,89 +13,85 @@
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|闪亮战斗|C0|总会对战一位你已经爱过的怪物。",
+			"dialog"		: "这是一场特殊的战斗，怪物会发射|C3|宝藏子弹|C0|攻击你。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "正因如此，你的攻击将无法减少该怪物的|C3|恐惧|C0|。",
+			"dialog"		: "与其他类型的子弹不同，|C3|宝藏子弹|C0|是不需要躲避的。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "相对应的，你的存在就能够使怪物的|C3|恐惧|C0|随时间消失。",
+			"dialog"		: "你的心可以安全地收集|C3|宝藏子弹|C0|，并从中提取出|C3|魔尘|C0|。",
 		},
+		
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "|C3|闪亮战斗|C0|的对手永远是已经爱上你的怪物。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "因此，你的存在就会让怪物的恐惧值随时间自动下降。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "你必须在恐惧槽完全耗尽之前，尽可能多地收集|C3|宝藏子弹|C0|。",
+		},
+		
 		{
 			"show_tutorial"	: "love_bar_partial",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "在闪亮战斗中，你的攻击能够填充怪物的|C3|爱之量表|C0|。",
+			"dialog"		: "你的攻击完全不会影响怪物的恐惧值。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "相反，你的攻击会用于填充怪物的|C3|爱之量表|C0|。",
 		},
 		{
 			"show_tutorial"	: "love_bar_full",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "当|C3|爱之量表|C0|已满时，怪物就会攻击你。",
+			"dialog"		: "当|C3|爱之量表|C0|完全填满时，怪物就会发动一轮大规模的|C3|宝藏子弹|C0|攻击。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "本单元感知到了你的疑惑，为什么你会想要怪物攻击你？",
-		},
-		{
-			"show_tutorial"	: "none",
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "这是因为在闪亮战斗中，怪物们会使用|C3|珍宝子弹|C0|攻击你。",
-		},
-		{
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|珍宝子弹|C0|不会伤害你，并且其中还含有|C3|魔尘|C0|。",
-		},
-		{
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|建议:|C0|让你的心接触到尽可能多的|C3|珍宝子弹|C0|以提取这些魔尘。",
-		},
-		{
-			"show_tutorial"	: "love_bar_full",
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "在怪物进行这段攻击时，|C3|恐惧|C0|也会停止流逝。",
-		},
-		{
-			"show_tutorial"	: "love_bar_full",
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "这将会延长战斗，从而让你能够有更多时间收集魔尘。",
+			"dialog"		: "在此期间，恐惧槽也会暂停下降，让你有更多时间收集魔尘。",
 		},
 		{
 			"show_tutorial"	: "love_bar_empty",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "当怪物的攻击结束时，|C3|爱之量表|C0|会被清空，而|C3|恐惧|C0|也会继续开始流逝。",
+			"dialog"		: "宝藏子弹攻击结束后，|C3|爱之量表|C0|会清空，恐惧值也会继续下降。",
 		},
 		{
 			"show_tutorial"	: "love_bar_partial",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "每进行一次攻击，|C3|爱之量表|C0|都会需要更多的爱才能够填满。",
+			"dialog"		: "此后每发动一轮宝藏弹幕攻击，填满|C3|爱之量表|C0|所需的爱都会增加。",
 		},
+		
 		{
 			"show_tutorial"	: "combo_bar6",
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "最后还有一件需要注意的事情，|C3|闪亮怪物|C0|会和|C3|羞涩怪物|C0|有着一样的连击维持机制。",
+			"dialog"		: "最后还有一点需要注意：|C3|闪亮怪物|C0|和普通的|C3|羞涩怪物|C0|一样，都会帮你维持连击。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "也就是说，仅当|C3|带有魔尘的小怪|C0|离开战斗区域时你的连击才会结束。",
+			"dialog"		: "也就是说，只有当|C3|随从|C0|逃离竞技场时，你的连击才会中断。",
 		},
-		{
-			"show_tutorial"	: "none",
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "这些就是关于|C3|闪亮战斗|C0|本单元为你准备的全部信息。",
-		},
+		
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "在这场|C3|闪亮战斗|C0|中，本单元将祝你好运。",
+			"dialog"		: "关于|C3|闪亮战斗|C0|，本单元能提供的信息就这么多了。",
+		},
+		{
+			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"		: "本单元祝你在这场|C3|闪亮战斗|C0|中好运。",
 		},
 		{
 			"love_hearts"	: 1,
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
-			"dialog"		: "本单元感觉到温度突然上升。",
+			"dialog"		: "本单元检测到自身温度突然升高。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_blush"],
-			"dialog"		: "这位扎拉登无边无际的爱是否无法逃离？",
+			"dialog"		: "难道无论身在何处，都无法躲开那个扎拉登无穷无尽的爱意吗？",
 		}
 	]
 }

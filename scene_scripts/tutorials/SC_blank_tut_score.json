@@ -138,15 +138,11 @@
 		
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "|C3|第三个因素:|C0|当你拥有|C3|提取奖励|C0|时，所有提取方式都能够获得额外的魔尘。",
+			"dialog"		: "|C3|第三个因素:|C0|所有提取方式都能够获得额外的魔尘，|C3|直到你的心受到伤害|C0|。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 			"dialog"		: "每场战斗开始时，你会带有|C3|25%的提取奖励|C0|。",
-		},
-		{
-			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
-			"dialog"		: "这意味着每次提取都包含|C3|25%的额外魔尘|C0|直至你的心受到伤害。",
 		},
 		{
 			"character"		: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],

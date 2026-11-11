@@ -1,31 +1,14 @@
 {
 	"script" : [
 		{
-			"use_textbox"		: 1,
+			"center_text_x"		: 1,
+			"center_text_y"		: 1,
+			"text_x"			: 320,
+			"text_y"			: 180,
+			"text_w"			: 500,
 			"play_music"		: "scene_music_a",
-			"bg_image"			: "spr_tutorial_common",
-			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_sad"],
-			"dialog"			: "Nothing you can do that can't be done.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Nothing you can sing that can't be sung.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_normal"],
-			"dialog"			: "Nothing you can say, but you can learn to play the game.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_voltage_veyeral_right", "MOOD_happy"],
-			"dialog"			: "It's easy!",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_molten_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|All you need is love.",
-		},
-		{
-			"character"			: ["VOICE_veyeral", "CHAR_storm_veyeral_right", "MOOD_happy"],
-			"dialog"			: "|wave|All you need is love.",
+			"voice"				: "VOICE_blue",
+			"dialog"			: "这里什么都没有！",
 		},
 	]
 }

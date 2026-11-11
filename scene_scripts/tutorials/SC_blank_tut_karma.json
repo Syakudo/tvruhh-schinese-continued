@@ -43,6 +43,10 @@
 			"dialog"			: "拥有|C3|因果|C0|同样有几率能够增加怪物选项到至多四个。",
 		},
 		{
+			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
+			"dialog"			: "总之，|C3|因果决定了你有多幸运|C0|。",
+		},
+		{
 			"show_tutorial"		: "monster_preview_karma",
 			"character"			: ["VOICE_bot", "CHAR_tutor_right", "MOOD_normal"],
 			"dialog"			: "去爱|C3|更高等级的怪物|C0|一般能够得到更多的|C3|因果|C0|。",
